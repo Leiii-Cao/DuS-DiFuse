@@ -16,7 +16,7 @@ Download: [Google Drive](https://drive.google.com/drive/folders/1SbWD1RLpYU7dkKK
 
 | Path | Download | Used by |
 | --- | --- | --- |
-| `weights/v2-1_512-ema-pruned.ckpt` | [Stable Diffusion 2.1](https://huggingface.co/ckpt/stable-diffusion-2-1-base/blob/main/v2-1_512-ema-pruned.ckpt) | inference, SDE, GFCM, DRFM, Generative Modulation |
+| `weights/v2-1_512-ema-pruned.ckpt` | [Stable Diffusion 2.1](https://huggingface.co/Manojb/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.ckpt?download=true) | inference, SDE, GFCM, DRFM, Generative Modulation |
 | `weights/open_clip_pytorch_model.bin` | [OpenCLIP ViT-H-14](https://huggingface.co/laion/CLIP-ViT-H-14-laion2B-s32B-b79K/blob/main/open_clip_pytorch_model.bin) | MDA training |
 | `weights/groundingdino_swinb_cogcoor.pth` | [GroundingDINO Swin-B](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth) | text localization |
 | `weights/sam_vit_h_4b8939.pth` | [SAM ViT-H](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) | text localization |
