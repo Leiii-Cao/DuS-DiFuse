@@ -15,6 +15,7 @@ git clone https://github.com/Leiii-Cao/DuS-DiFuse.git
 cd DuS-DiFuse
 conda env create -f environment.yml
 conda activate dus-difuse
+python -m pip install -r requirements.txt
 ```
 
 The environment uses Python 3.10 and installs `requirements.txt`.
