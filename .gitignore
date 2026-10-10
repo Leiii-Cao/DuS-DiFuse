@@ -1,0 +1,54 @@
+# Python and native build products
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent/Codex material and logs
+.codex/
+.agents/
+codex_中间文件/
+*.log
+events.out.tfevents.*
+wandb/
+
+# Experiments and generated outputs
+experiments/
+results/
+outputs/
+checkpoints/
+
+# Large datasets. Keep only the small inference and generation examples in Git.
+data/*
+!data/README.md
+!data/example/
+!data/example/**
+!data/generation/
+!data/generation/**
+
+# Checkpoints and release archives
+weights/*
+!weights/README.md
+!weights/GroundingDINO_SwinB_cfg.py
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.tar
+*.tar.gz
+*.tar.zst
+*.zip
+
+# GroundingDINO build/demo artifacts
+dus_difuse/target_att/GroundingDINO/.asset/
+dus_difuse/target_att/GroundingDINO/**/*.ipynb

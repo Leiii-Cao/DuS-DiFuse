@@ -1,0 +1,12 @@
+name: dus-difuse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=25
+  - git
+  - ninja
+  - setuptools
+  - wheel
+  - pip:
+      - -r requirements.txt
