@@ -16,6 +16,7 @@ torch==2.6.0
 torchvision==0.21.0
 tqdm==4.67.1
 transformers==4.57.3
+pytorch-lightning==2.6.6
 
 # Text-localized Generative Modulation.
 addict==2.4.0
@@ -23,4 +24,3 @@ pycocotools==2.0.11
 segment-anything-py==1.0.1
 supervision==0.22.0
 yapf==0.43.0
-pytorch-lightning==2.6.6
